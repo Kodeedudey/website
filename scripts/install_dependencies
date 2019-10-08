@@ -2,5 +2,3 @@
 sudo apt-get update
 sudo apt-get -y install apache2
 sudo rm /var/www/html/index.html
-sudo wget https://codepipeline-us-east-1-564246628072.s3.amazonaws.com/pipeline2/BuildArtif/Qb8tAma
-sudo unzip Qb8tAma
