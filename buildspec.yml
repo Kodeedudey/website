@@ -1,0 +1,16 @@
+version: 0.2
+ 
+phases:
+  install:
+    commands:
+      - apt-get install -y unzip
+
+  build:
+    commands:
+      - echo Build started on `date`
+      - zip hello.zip ./index.html
+   
+artifacts:
+  type: 
+  files:
+    - index.html
