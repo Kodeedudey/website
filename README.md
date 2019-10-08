@@ -1,1 +1,1 @@
-#Sample Application for AWS DevOps Course
+# Sample Application for AWS DevOps Course
