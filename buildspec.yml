@@ -11,9 +11,9 @@ phases:
     commands:
       - echo Build started on `date`
       - zip hello.zip ./index.html 
-      - mv ./appspec.html ./opt/codedeploy-agent/deployment-root/08ba87a4-118e-466f-a780-69e067f35277/d-3CU4PZL80/deployment-archive
    
 artifacts:
   type: 
   files:
     - index.html
+    - appspec.yml
