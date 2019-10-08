@@ -17,3 +17,4 @@ artifacts:
   files:
     - index.html
     - appspec.yml
+    - scripts
